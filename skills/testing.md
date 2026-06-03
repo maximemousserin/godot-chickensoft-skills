@@ -1,4 +1,3 @@
-> ← Back to [SKILL.md](../SKILL.md)
 
 # Testing the Event Bus
 

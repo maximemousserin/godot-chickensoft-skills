@@ -1,4 +1,3 @@
-> ← Back to [SKILL.md](../SKILL.md)
 
 # Worked Example: A "Chest" Interactable
 

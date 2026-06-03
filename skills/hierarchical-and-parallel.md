@@ -1,4 +1,3 @@
-> ← Back to [SKILL.md](../SKILL.md)
 
 # Hierarchical and Parallel State Machines
 
