@@ -28,12 +28,12 @@ Godot Nodes (update UI/visuals)
 
 The repository is the **domain bus** - all important game state changes flow through it.
 
-## Real Example from GameDemo
+## Real Example from DodgeTheCreeps
 
 ### Interface Definition (`src/app/domain/AppRepo.cs`)
 
 ```csharp
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using System;
 

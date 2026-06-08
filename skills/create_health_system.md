@@ -35,7 +35,7 @@ UI updates health bar
 
 ```csharp
 // src/traits/IDamageable.cs
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 public interface IDamageable
 {
@@ -98,7 +98,7 @@ public partial class Player : CharacterBody3D, IPlayer, IDamageable
 
 ```csharp
 // src/player/state/HealthLogic.cs
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using Chickensoft.LogicBlocks;
 

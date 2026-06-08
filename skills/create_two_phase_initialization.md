@@ -70,7 +70,7 @@ public void SetupInitializesLogic()
 }
 ```
 
-## Real Example from GameDemo
+## Real Example from DodgeTheCreeps
 
 ### Player.cs Two-Phase Initialization
 

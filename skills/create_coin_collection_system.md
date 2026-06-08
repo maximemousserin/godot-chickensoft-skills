@@ -27,13 +27,13 @@ Coin.OnReady() binds outputs to animations
 CoinBinding handles animation and position updates
 ```
 
-## Real Implementation from GameDemo
+## Real Implementation from DodgeTheCreeps
 
 ### Step 1: Define Coin Interface
 
 ```csharp
 // src/coin/Coin.cs (lines 1-20)
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using Godot;
 
@@ -154,7 +154,7 @@ public partial class Coin : Node3D, ICoin
 
 ```csharp
 // src/coin/state/CoinLogic.cs
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using Chickensoft.LogicBlocks;
 
@@ -263,7 +263,7 @@ public partial class CoinLogic : LogicBlock<CoinLogic.State>
 
 ```csharp
 // src/coin/CoinData.cs
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 public record CoinData(
   Vector3 Position = default,

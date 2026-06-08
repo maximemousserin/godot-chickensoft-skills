@@ -25,12 +25,12 @@ Output Message
 Godot Node Bindings (updates UI)
 ```
 
-## Real Example from GameDemo
+## Real Example from DodgeTheCreeps
 
 ### Input Records (`src/app/state/AppLogic.Input.cs`)
 
 ```csharp
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 public partial class AppLogic : LogicBlock<AppLogic.State>
 {
@@ -62,7 +62,7 @@ public partial class AppLogic : LogicBlock<AppLogic.State>
 ### Output Records (`src/app/state/AppLogic.Output.cs`)
 
 ```csharp
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 public partial class AppLogic : LogicBlock<AppLogic.State>
 {

@@ -29,13 +29,13 @@ AppLogic listens for SplashScreenSkipped
 Transition to MainMenu state
 ```
 
-## Real Example from GameDemo
+## Real Example from DodgeTheCreeps
 
 ### Splash Screen Node
 
 ```csharp
 // src/menu/screens/SplashScreenNode.cs
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using Godot;
 
@@ -146,7 +146,7 @@ public partial class SplashScreen : Control, ISplashScreen
 
 ```csharp
 // src/menu/state/SplashScreenLogic.cs
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using Chickensoft.LogicBlocks;
 

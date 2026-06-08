@@ -26,7 +26,7 @@ Example: To jump 3 meters high with gravity=-30:
 
 In Godot, apply impulse force once, then gravity pulls down each frame.
 
-## Real Implementation from GameDemo
+## Real Implementation from DodgeTheCreeps
 
 ### Jump State Definition
 

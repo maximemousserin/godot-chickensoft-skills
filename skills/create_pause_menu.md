@@ -37,7 +37,7 @@ Sets get_tree().paused = true
 
 ```csharp
 // src/pause_menu/PauseMenu.cs
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using Godot;
 
@@ -148,7 +148,7 @@ public partial class PauseMenu : Control, IPauseMenu
 
 ```csharp
 // src/pause_menu/state/PauseMenuLogic.cs
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using Chickensoft.LogicBlocks;
 

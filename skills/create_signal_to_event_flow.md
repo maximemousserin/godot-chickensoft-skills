@@ -51,7 +51,7 @@ Benefits:
 - Pure C# testable
 - Clear data flow
 
-## Real Example from GameDemo
+## Real Example from DodgeTheCreeps
 
 ### Connecting Signals to Repository Events
 

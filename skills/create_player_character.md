@@ -31,13 +31,13 @@ Binding outputs to animations
 └── AnimationPlayer.Play()
 ```
 
-## Real Implementation from GameDemo
+## Real Implementation from DodgeTheCreeps
 
 ### Step 1: Define the Player Interface
 
 ```csharp
 // src/player/Player.cs (lines 1-45)
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using Godot;
 
@@ -306,7 +306,7 @@ public partial class Player : CharacterBody3D, IPlayer,
 
 ```csharp
 // src/player/state/PlayerLogic.cs
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using Chickensoft.LogicBlocks;
 
@@ -426,7 +426,7 @@ public partial class PlayerLogic : LogicBlock<PlayerLogic.State>
 
 ```csharp
 // src/player/PlayerData.cs
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 public record PlayerData(
   Vector3 Position = default,

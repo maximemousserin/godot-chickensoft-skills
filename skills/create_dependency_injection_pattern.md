@@ -24,7 +24,7 @@ Provided instances
 Automatic injection
 ```
 
-## Real Examples from GameDemo
+## Real Examples from DodgeTheCreeps
 
 ### Basic Dependency Declaration
 
@@ -71,7 +71,7 @@ public partial class Player : CharacterBody3D, IPlayer,
 
 Other nodes can now depend on `IPlayer`, and AutoInject will find it.
 
-### In-Depth Example from GameDemo
+### In-Depth Example from DodgeTheCreeps
 
 ```csharp
 [Meta(typeof(IAutoNode))]

@@ -43,12 +43,12 @@ Entity (base class - rigid hierarchy)
 └── NPC (can't add capabilities without modifying hierarchy)
 ```
 
-## Real Examples from GameDemo
+## Real Examples from DodgeTheCreeps
 
 ### src/traits/IKillable.cs
 
 ```csharp
-namespace GameDemo.Traits;
+namespace DodgeTheCreeps.Traits;
 
 /// <summary>
 ///   Something that can be killed (die, removed from game).
@@ -69,7 +69,7 @@ public interface IKillable
 ### src/traits/ICoinCollector.cs
 
 ```csharp
-namespace GameDemo.Traits;
+namespace DodgeTheCreeps.Traits;
 
 /// <summary>
 ///   Something that can collect coins.
@@ -87,7 +87,7 @@ public interface ICoinCollector
 ### src/traits/IPushEnabled.cs
 
 ```csharp
-namespace GameDemo.Traits;
+namespace DodgeTheCreeps.Traits;
 
 /// <summary>
 ///   Something that can be pushed or knocked back.
@@ -436,7 +436,7 @@ public class DamageTests
 }
 ```
 
-## Trait Collection in GameDemo
+## Trait Collection in DodgeTheCreeps
 
 Located in `src/traits/`:
 

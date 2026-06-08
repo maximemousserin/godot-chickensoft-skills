@@ -11,7 +11,7 @@ The Chickensoft architecture shines when your project structure mirrors your **d
 - **Clear boundaries** - Each domain entity has owned responsibilities
 - **Parallel development** - Teams can work on separate features without conflicts
 
-## Reference Architecture from GameDemo
+## Reference Architecture from DodgeTheCreeps
 
 ```
 src/
@@ -233,25 +233,25 @@ Player, Enemy, and NPC can all implement these traits.
 
 ```csharp
 // Player node
-namespace GameDemo.Player;
+namespace DodgeTheCreeps.Player;
 public partial class Player : CharacterBody3D { }
 
 // Player logic
-namespace GameDemo.Player.State;
+namespace DodgeTheCreeps.Player.State;
 public partial class PlayerLogic : LogicBlock<PlayerLogic.State> { }
 
 // Traits
-namespace GameDemo.Traits;
+namespace DodgeTheCreeps.Traits;
 public interface IKillable { }
 
 // Utilities
-namespace GameDemo.Utils;
+namespace DodgeTheCreeps.Utils;
 public static class InputUtilities { }
 ```
 
 Or simpler:
 ```csharp
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 public partial class Player : CharacterBody3D { }
 public partial class PlayerLogic : LogicBlock<PlayerLogic.State> { }

@@ -25,7 +25,7 @@ Settings and Capabilities
 Dependent Code → Depends on Interface → Can be mocked/tested
 ```
 
-## Real Examples from GameDemo
+## Real Examples from DodgeTheCreeps
 
 ### Player Interface
 
@@ -116,7 +116,7 @@ public class PlayerAnimator
 Start with what the **outside world** needs to access:
 
 ```csharp
-namespace GameDemo;
+namespace DodgeTheCreeps;
 
 using Godot;
 
@@ -271,7 +271,7 @@ public partial class Player
 }
 ```
 
-## Real Interface Examples from GameDemo
+## Real Interface Examples from DodgeTheCreeps
 
 ### Full Player Interface
 
@@ -358,7 +358,7 @@ public class GameTests
 ## Trait Interfaces Example
 
 ```csharp
-namespace GameDemo.Traits;
+namespace DodgeTheCreeps.Traits;
 
 /// <summary>Something that can be killed.</summary>
 public interface IKillable
